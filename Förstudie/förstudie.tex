@@ -1,0 +1,88 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{graphicx} 
+\usepackage{listings}
+\usepackage{xcolor} 
+\usepackage[table]{xcolor} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\sisetup{output-decimal-marker = {,}}
+\usepackage[swedish]{babel}
+\usepackage{array}
+\usepackage{adjustbox}
+\usepackage[margin=2.5 cm]{geometry}
+\usepackage{appendix}
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage[
+    sorting=none
+]{biblatex}
+\usepackage{titling}
+
+\addbibresource{references.bib}
+
+\lstdefinestyle{mypython}{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{gray!10},
+    keywordstyle=\color{blue}\bfseries,
+    %stringstyle=\color{orange!85!black},
+    commentstyle=\color{green!50!black},
+    numberstyle=\tiny,
+    numbers=left,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    frame=single,
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=4,
+    morekeywords={self},  % Lägg till fler Python-nyckelord om nödvändigt
+    literate={ö}{{\"o}}1 {å}{{\aa}}1 {ä}{{\"a}}1 {\\}{{\textbackslash}}1,
+    }
+    
+\begin{document}
+
+\pagenumbering{arabic}
+\thispagestyle{empty}
+\begin{center}
+{\huge\bf Förstudie - Kvantfysik:\\}
+{\Large\bf Studier av atomära spektrum
+}
+\end{center}
+\vspace{1.0cm}
+\begin{center}
+Julius Berg (juliusbe), Benjamin Johansson (benjjoh), \par
+Program: Teknisk fysik. \par
+Kurs: TIF097 - Experimentell fysik 2.
+\end{center}
+\vspace{1.0cm}
+\centerline{\bf Sammandrag}
+ 
+\newpage
+\tableofcontents
+\newpage
+
+\section{Inledning}
+
+\section{Bakgrund}
+
+\section{Metod}
+
+\subsection{Försöksuppställning}
+
+\subsection{Genomförande}
+
+\section{Förväntade resultat}
+
+\section{Diskussion}
+
+\newpage
+
+\end{document}
