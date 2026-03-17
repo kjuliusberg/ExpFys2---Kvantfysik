@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>förstudie.bcf</file>
+      <file>forstudie.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>förstudie.bbl</file>
+      <file>forstudie.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>förstudie</infile>
+      <infile>forstudie</infile>
     </cmdline>
     <input>
-      <file>förstudie.bcf</file>
+      <file>forstudie.bcf</file>
     </input>
     <output>
-      <file>förstudie.bbl</file>
+      <file>forstudie.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>förstudie.bbl</file>
+      <file>forstudie.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>förstudie.bcf</file>
+      <file>forstudie.bcf</file>
     </requires>
     <requires type="editable">
       <file>references.bib</file>
