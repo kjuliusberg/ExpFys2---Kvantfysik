@@ -284,8 +284,6 @@ INPUT ..\Bilder\Bohr_atom_model.png
 INPUT ..\Bilder\Bohr_atom_model.png
 INPUT ..\Bilder\Bohr_atom_model.png
 INPUT ..\Bilder\Bohr_atom_model.png
-INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
-INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT forstudie.aux
@@ -303,6 +301,8 @@ INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
 INPUT C:\Users\kjuli\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\kjuli\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb

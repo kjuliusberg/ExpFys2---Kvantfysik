@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber forstudie"] 1773750489.0534 "forstudie.bcf" "forstudie.bbl" "forstudie" 1773750611.39489 0
-  "forstudie.bcf" 1773750610 107281 12af93026da0d90cc7ce1429f4c03135 "pdflatex"
+["biber forstudie"] 1773750489.0534 "forstudie.bcf" "forstudie.bbl" "forstudie" 1773757013.21015 0
+  "forstudie.bcf" 1773757012 107281 12af93026da0d90cc7ce1429f4c03135 "pdflatex"
   (generated)
   "forstudie.bbl"
   "forstudie.blg"
   (rewritten before read)
-["pdflatex"] 1773750609.86759 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" "forstudie.pdf" "forstudie" 1773750611.39582 0
-  "../Bilder/Bohr_atom_model.png" 1773749117 20578 069aa379c5002fcae896fe9ab8b10b2d ""
+["pdflatex"] 1773757008.96073 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" "forstudie.pdf" "forstudie" 1773757013.21099 0
+  "../Bilder/Bohr_atom_model.png" 1773751750 43158 9cff0615403e96505dae798c784e1c24 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773215969 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1773064589 25420 6a13246c91c069f8a2c00fde99c8706c ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1773064583 31952 2801ef4c9d1324cd48aec91d2fc0c6d6 ""
@@ -18,8 +18,6 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx2074.tfm" 993061964 3208 da5ec29ca7c2f5f55c296dd6713d4a74 ""
-  "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0500.tfm" 993062114 3160 7643a152c0e9200a0a8161b2bb3a452d ""
-  "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0700.tfm" 993062116 3168 c739b83da3134ef1007979877c1089cf ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
@@ -31,6 +29,7 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1233951854 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
+  "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -142,13 +141,13 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" 1773750607 3085 a533b576f5f699f45577f3ac09504bff ""
-  "forstudie.aux" 1773750610 1402 b907fb49aca4ed3e8e98d7c1b71fd691 "pdflatex"
+  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" 1773757006 4501 a96acf7b8bc6655c1074b4cab56e85f5 ""
+  "forstudie.aux" 1773757012 1402 b907fb49aca4ed3e8e98d7c1b71fd691 "pdflatex"
   "forstudie.bbl" 1773750490 486 76d65a242ec496c9b4361af646ff12cb "biber forstudie"
-  "forstudie.out" 1773750610 745 11db42b220180d659243c03ef2e900a6 "pdflatex"
-  "forstudie.run.xml" 1773750610 2340 032b2f9aa925c9a7dd4b638ac84b2865 "pdflatex"
-  "forstudie.tex" 1773750607 3085 a533b576f5f699f45577f3ac09504bff ""
-  "forstudie.toc" 1773750610 527 0a605e9616aaed09a42de25f983b82a9 "pdflatex"
+  "forstudie.out" 1773757012 745 11db42b220180d659243c03ef2e900a6 "pdflatex"
+  "forstudie.run.xml" 1773757012 2340 032b2f9aa925c9a7dd4b638ac84b2865 "pdflatex"
+  "forstudie.tex" 1773757006 4501 a96acf7b8bc6655c1074b4cab56e85f5 ""
+  "forstudie.toc" 1773757012 527 0a605e9616aaed09a42de25f983b82a9 "pdflatex"
   (generated)
   "forstudie.aux"
   "forstudie.bcf"
