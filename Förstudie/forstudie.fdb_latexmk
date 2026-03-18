@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber forstudie"] 1773750489.0534 "forstudie.bcf" "forstudie.bbl" "forstudie" 1773851375.14131 0
-  "forstudie.bcf" 1773851374 107281 12af93026da0d90cc7ce1429f4c03135 "pdflatex"
+["biber forstudie"] 1773750489.0534 "forstudie.bcf" "forstudie.bbl" "forstudie" 1773853267.02118 0
+  "forstudie.bcf" 1773853266 107281 12af93026da0d90cc7ce1429f4c03135 "pdflatex"
   (generated)
   "forstudie.bbl"
   "forstudie.blg"
   (rewritten before read)
-["pdflatex"] 1773851373.60766 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" "forstudie.pdf" "forstudie" 1773851375.142 0
+["pdflatex"] 1773853265.49715 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" "forstudie.pdf" "forstudie" 1773853267.02189 0
   "../Bilder/Bohr_atom_model.png" 1773751750 43158 9cff0615403e96505dae798c784e1c24 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773215969 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/kjuli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1773064589 25420 6a13246c91c069f8a2c00fde99c8706c ""
@@ -140,13 +140,13 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" 1773851373 7739 56a9ccefdaf3a087826ec03d39d41784 ""
-  "forstudie.aux" 1773851374 1402 59622add89ee71699adf1b5554d9e51c "pdflatex"
+  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" 1773853265 6388 aae0456571a64e2d03a100628fe43b04 ""
+  "forstudie.aux" 1773853266 1402 59622add89ee71699adf1b5554d9e51c "pdflatex"
   "forstudie.bbl" 1773750490 486 76d65a242ec496c9b4361af646ff12cb "biber forstudie"
-  "forstudie.out" 1773851374 745 11db42b220180d659243c03ef2e900a6 "pdflatex"
-  "forstudie.run.xml" 1773851374 2340 032b2f9aa925c9a7dd4b638ac84b2865 "pdflatex"
-  "forstudie.tex" 1773851373 7739 56a9ccefdaf3a087826ec03d39d41784 ""
-  "forstudie.toc" 1773851374 527 c27bbeaa6e9a71325adf556f1e15a096 "pdflatex"
+  "forstudie.out" 1773853266 745 11db42b220180d659243c03ef2e900a6 "pdflatex"
+  "forstudie.run.xml" 1773853266 2340 032b2f9aa925c9a7dd4b638ac84b2865 "pdflatex"
+  "forstudie.tex" 1773853265 6388 aae0456571a64e2d03a100628fe43b04 ""
+  "forstudie.toc" 1773853266 527 c27bbeaa6e9a71325adf556f1e15a096 "pdflatex"
   (generated)
   "forstudie.aux"
   "forstudie.bcf"
