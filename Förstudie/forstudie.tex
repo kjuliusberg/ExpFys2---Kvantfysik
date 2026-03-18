@@ -122,12 +122,14 @@ En foton har en energi som är linjärt proportionerlig mot frekvensen enligt sa
 
 \begin{equation}
     E = hf = h\frac{c_0}{\lambda},
+    \label{eq:energi-våglängd-relation}
 \end{equation}
 
 där $E$ är energin, $f$ är frekvensen och $\lambda$ är våglängden.
 När en elektron går från en högre energinivå till en lägre energinivå kommer den att avge en foton med energin 
 \begin{equation}
     E = E_{2} - E_1.
+    \label{eq:energiskillnad}
 \end{equation}
 Eftersom energinivåerna i atomen är specifika kommer också alla energiskillnader mellan nivåer att vara specifika.
 Detta innebär att atomen kommer sända ut ett spektrum av fotoner med diskreta frekvenser,
@@ -135,16 +137,57 @@ vilket ger upphov till ett linjespektrum där varje spektrallinje motsvarar en �
 
 Alla energiövergångar är dock inte tillåtna, utan bestäms av så kallade urvalsregler.
 
+
+% Gjorde ett exempel på spektrum som vi kan erhålla för jag ville ha lite mer att snacka om i förväntade resultat än "who knows"
+% Om du vill snacka lite om det tror jag det hade passat, lade koden i dataanalys
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../Bilder/Exempel_emissionsspektra.png}
+    \caption{\textit{}}
+    \label{fig:Exempel_emissionsspektra}
+\end{figure}
 \section{Metod}
 
 \subsection{Försöksuppställning}
-
+Uppställningen förväntas använda spektrometern SPEX 270M, ett Hamamatsu R375 fotomultiplikatorrör, en Keithley 485 picoamperemeter
+och en ljuskälla, enligt figur \ref{fig:Försöksuppställning}. Ljuskällan exciterar ett grundämne som vid deexcitation utstrålar ljus. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{../Bilder/SPEX_270M.jpg}
+    \caption{\textit{Den försöksuppställning som förväntas användas under laborationen. En ljuskälla från det exciterade ämnet 
+    lyser in i en spektrometer och förstärks med en fotomultiplikator. Signalen från fotomultiplikatorn mäts med en picoamperemeter.
+    Hela uppställningen styrs via LabVIEW.}}
+    \label{fig:Försöksuppställning}
+\end{figure}
 \subsection{Genomförande}
+Då ljuskällan lyser in i spektrometern kan en enskilld våglängd väljas genom att justera gittrets position med en inre motor. Den monokroma strålen förstärks
+i fotomultiplikatorröret och översätts till en elektrisk signal som kan mätas med picoamperemetern. Genom att justera vilken våglängd som väljs
+i spektrometern och dokumentera strömstyrkan som mäts med amperemetern kan strömmens beroende på våglängden bestämmas. Ett emissionsspektrum kan 
+sedan bildas genom att plotta strömmen mot våglängden. Både spektrometern och picoamperemetern
+förväntas styras via en egenskriven LabVIEW-kod, se appendix \ref{appendix:Labview}.
+
+Från emmisionsspektrumet kan sedan ett energinivådiagram konstrueras genom att finna centrum på spektrumets toppar och använda 
+ekvationerna \ref{eq:energiskillnad} och \ref{eq:energi-våglängd-relation}.
 
 \section{Förväntade resultat}
-
+Det exakta emmisionsspektrumet kan inte bestämmas utan att veta vilket grundämne som ska undersökas. Däremot kommer spektrumet anta ett generiskt utseende enligt figur \ref{fig:Exempel_emissionsspektra}.
+Det förväntas finnas diskreta toppar som påvisar de våglängder ämnet emitterar. Energinivådiagrammet förväntas även kunna konstrueras från emissionspektrumet.
 \section{Diskussion}
 
+% \newpage
+% \printbibliography
+\appendix
 \newpage
+\section{LabVIEW-kod}
+\label{appendix:Labview}
+Under laborationen förväntas ett egenskrivet LabVIEW-programm användas. Blockdiagrammet till detta program visas nedan i figur \ref{fig:LabVIEW-kod}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.25\linewidth, angle = -90]{../Bilder/Kvant Labview-bild.png}
+    \caption{\textit{Den LabVIEW-kod som förväntas användas under laborationen. Först initaliseras spektrometern och amperemetern.
+    Sedan väljs vilken våglängd som spektrometern ska låta igenom och strömmen från amperemetern sparas tillsammans med våglängden.
+    Till sist sparas en .csv fil med våglängder och den ström som mäts vilket tillsammans bildar kan plottas till en intensitetsfördelning.}}
+    \label{fig:LabVIEW-kod}
+\end{figure}
 
 \end{document}
