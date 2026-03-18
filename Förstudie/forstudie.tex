@@ -71,46 +71,60 @@ Kurs: TIF097 - Experimentell fysik 2.
 
 \section{Inledning}
 
-Introducera här spektrallinjer.
+Alla grundämnen interagerar på olika sätt med elektromagnetisk strålning.
+Detta sker både via absorption, då en elektron absorberar en foton och ökar i energi, eller emission, 
+då en elektron minskar i energi och emitterar en foton med motsvarande energi.
+Denna växelverkan sker dock endast vid specifika frekvenser, eftersom elektroner i en atom endast kan existera
+på specifika energinivåer.
+När en elektron övergår från en energinivå till en energinivå med lägre energi frigörs därmed en foton som har en våglängd proportionerlig mot energiskillnaden mellan nivåerna.
+Detta ger upphov till fotoner med en bestämd våglängd, så kallade spektrallinjer.
+
+Eftersom olika grundämnen har olika elektronstrukturer har varje ämne en unik uppsättning möjliga energiövergångar.
+Detta innebär att specifika grundämnen producerar unika uppsättningar av spektrallinjer.
+Denna unika uppsättning fungerar som ett fingeravtryck för det specifika grundämnet, och detta faktum är mycket viktigt inom till exempel astronomi, 
+där emissionsspektrum används för att bestämma vilka grundämnen och molekyler som finns i exoplaneters atmosfärer.
+
+Syftet med denna studie är att för ett bestämt grundämne bestämma emissionsspektrum och utifrån detta emissionsspektrum konstruera grundämnets energinivådiagram.
 
 \section{Teori}
-År 1918 publicerade Niels Bohr sin atommodell, där atomen beskrivs som ett system bestående av en central positivt laddad kärna.
-Kring denna positivt laddade kärna cirkulerar flera negativt laddade elektroner, som hölls i sin omloppsbana tack vare den elektrostatiska kraften.
+hej
+% År 1918 publicerade Niels Bohr sin atommodell, där atomen beskrivs som ett system bestående av en central positivt laddad kärna.
+% Kring denna positivt laddade kärna cirkulerar flera negativt laddade elektroner, som hölls i sin omloppsbana tack vare den elektrostatiska kraften.
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.5\linewidth]{../Bilder/Bohr_atom_model.png}
-    \caption{}
-    \label{fig:Bohr_atom_model}
-\end{figure}
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=0.5\linewidth]{../Bilder/Bohr_atom_model.png}
+%     \caption{}
+%     \label{fig:Bohr_atom_model}
+% \end{figure}
 
-Dessa elektroner cirkulerade i Bohrs atommodell bestämda avstånd, motsvarande kvanttalet $n$.
-Varje avstånd hade en given diskret energi som stod i direkt relation med kvanttalet $n$ enligt sambandet 
-\begin{equation}
-    E_n = - \frac{me^4 Z^2}{8\varepsilon_0^2 h^2 n^2} = -Rhc_0\frac{Z^2}{n^2} 
-\end{equation}
-där m är systemets reducerade massa ($\approx m_e$), $e$ är elementarladdningen, $Z$ är antalet protoner i kärnan, $\varepsilon_0$ är permittiviteten i vakuum, 
-$h$ är plancks konstant, $n$ är kvanttalet, $R$ är Rydbergs konstant och $c_0$ är ljusets hastighet i vakuum.
+% Dessa elektroner cirkulerade i Bohrs atommodell bestämda avstånd, motsvarande kvanttalet $n$.
+% Varje avstånd hade en given diskret energi som stod i direkt relation med kvanttalet $n$ enligt sambandet 
+% \begin{equation}
+%     E_n = - \frac{me^4 Z^2}{8\varepsilon_0^2 h^2 n^2} = -Rhc_0\frac{Z^2}{n^2} 
+% \end{equation}
+% där m är systemets reducerade massa ($\approx m_e$), $e$ är elementarladdningen, $Z$ är antalet protoner i kärnan, $\varepsilon_0$ är permittiviteten i vakuum, 
+% $h$ är plancks konstant, $n$ är kvanttalet, $R$ är Rydbergs konstant och $c_0$ är ljusets hastighet i vakuum.
 
-Framgången med Bohrs atommodell var att den lyckades skapa en teoretisk modell som förklarade Rydbergs formel.
-Rydberg hade lyckats skapa en empirisk modell som beskrev våglängderna för de spektrallinjer man observerat i alkalimetaller.
-Rydbergs formel skrivs som 
-\begin{equation}
-    \frac{1}{\lambda} = RZ^2 \left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right),
-\end{equation}
-där $n_1$ och $n_2$, $n_2 > n_1$, är de grundläggande kvanttalen, introducerade som skal i Bohrs energimodell. 
-Spektrallinjer kunde nu förklaras som resultatet av en energiövergång, där en elektron går från ett elektronskal till ett annat.
-I processen avges eller absorberas en foton med en fast energi $E = hf$.
+% Framgången med Bohrs atommodell var att den lyckades skapa en teoretisk modell som förklarade Rydbergs formel.
+% Rydberg hade lyckats skapa en empirisk modell som beskrev våglängderna för de spektrallinjer man observerat i alkalimetaller.
+% Rydbergs formel skrivs som 
+% \begin{equation}
+%     \frac{1}{\lambda} = RZ^2 \left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right),
+% \end{equation}
+% där $n_1$ och $n_2$, $n_2 > n_1$, är de grundläggande kvanttalen, introducerade som skal i Bohrs energimodell. 
+% Spektrallinjer kunde nu förklaras som resultatet av en energiövergång, där en elektron går från ett elektronskal till ett annat.
+% I processen avges eller absorberas en foton med en fast energi $E = hf$.
 
-Bohrs modell fungerar väl för vätelika system med endast 1 elektron, men för att beskriva system med fler elektroner krävs fler kvanttal som beskriver en elektrons energinivå.
-Utöver kvanttalet $n$ finns också kvanttalet $l$, som beskriver elektronens rörelsemängdsmoment, $m$ som beskriver rörelsemängdsmomentets projektion  
-samt partikelns spinn, $s$.
-Tillsammans beskriver dessa kvanttal elektronernas orbitaler runt kärnan, där en orbital avser en energinivå med en väldefinierad energi.
-För ett givet huvudkvanttal $n$ finns det $(n - 1)$ rörelsemängdsmomentkvanttal $l$.
-För en given mängd rörelsemängdskvanttal $l$ antar kvanttalet $m$ värden mellan $-l - l$ i diskreta steg.
-Elektronen är en fermion, vilket innebär att den har spinn $1/2$
+% Bohrs modell fungerar väl för vätelika system med endast 1 elektron, men för att beskriva system med fler elektroner krävs fler kvanttal som beskriver en elektrons energinivå.
+% Utöver kvanttalet $n$ finns också kvanttalet $l$, som beskriver elektronens rörelsemängdsmoment, $m$ som beskriver rörelsemängdsmomentets projektion  
+% samt partikelns spinn, $s$.
+% Tillsammans beskriver dessa kvanttal elektronernas orbitaler runt kärnan, där en orbital avser en energinivå med en väldefinierad energi.
+% För ett givet huvudkvanttal $n$ finns det $(n - 1)$ rörelsemängdsmomentkvanttal $l$.
+% För en given mängd rörelsemängdskvanttal $l$ antar kvanttalet $m$ värden mellan $-l - l$ i diskreta steg.
+% Elektronen är en fermion, vilket innebär att den har spinn $1/2$
 
-När en elektron går från ett kvanttillstånd definierat av 
+% När en elektron går från ett kvanttillstånd definierat av 
 
 \section{Metod}
 
