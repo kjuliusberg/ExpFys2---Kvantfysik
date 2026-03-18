@@ -74,9 +74,9 @@ Kurs: TIF097 - Experimentell fysik 2.
 Alla grundämnen interagerar på olika sätt med elektromagnetisk strålning.
 Detta sker både via absorption, då en elektron absorberar en foton och ökar i energi, eller emission, 
 då en elektron minskar i energi och emitterar en foton med motsvarande energi.
-Denna växelverkan sker dock endast vid specifika frekvenser, eftersom elektroner i en atom endast kan existera
+Denna växelverkan sker dock endast vid specifika frekvenser, då elektroner i en atom endast kan existera
 på specifika energinivåer.
-När en elektron övergår från en energinivå till en energinivå med lägre energi frigörs därmed en foton som har en våglängd proportionerlig mot energiskillnaden mellan nivåerna.
+När en elektron övergår från en energinivå till en energinivå med lägre energi frigörs därmed en foton som har en våglängd som ges av energiskillnaden mellan nivåerna.
 Detta ger upphov till fotoner med en bestämd våglängd, så kallade spektrallinjer.
 
 Eftersom olika grundämnen har olika elektronstrukturer har varje ämne en unik uppsättning möjliga energiövergångar.
@@ -87,16 +87,37 @@ där emissionsspektrum används för att bestämma vilka grundämnen och molekyl
 Syftet med denna studie är att för ett bestämt grundämne bestämma emissionsspektrum och utifrån detta emissionsspektrum konstruera grundämnets energinivådiagram.
 
 \section{Teori}
-hej
+En atoms energinivåer definieras av kombinationer av 4 kvanttal.
+Dessa kvanttal kan tillsammans beskriva elektronkonfigurationen i en atom, och varje kombination av kvanttal motsvaras av en energinivå.
+Kvanttalen är huvudkvanttalet $n$, bankvanttalet $l$, det magnetiska kvanttalet $m$ och spinnkvanttalet $s$.
+
+Huvudkvanttalet $n$ relaterar till elektronens energi, och är ett naturligt tal. 
+I Bohrs atommodell, som kännetecknas av en kärna och elektroner som cirkulerar i skal på bestämda avstånd från kärnan, är $n$ det enda kvanttalet.
+Elektronens energi blir i det fallet 
+\begin{equation}
+    E_n = - \frac{me^4 Z^2}{8\varepsilon_0^2 h^2 n^2} = -Rhc_0\frac{Z^2}{n^2} 
+\end{equation}
+är m är systemets reducerade massa ($\approx m_e$), $e$ är elementarladdningen, $Z$ är antalet protoner i kärnan, $\varepsilon_0$ är permittiviteten i vakuum, 
+$h$ är plancks konstant, $n$ är kvanttalet, $R$ är Rydbergs konstant och $c_0$ är ljusets hastighet i vakuum.
+En schematisk bild av Bohrs atommodell visas nedan i figur \ref{fig:Bohr_atom_model}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\linewidth]{../Bilder/Bohr_atom_model.png}
+    \caption{}
+    \label{fig:Bohr_atom_model}
+\end{figure}
+
+Bohrs atommodell tar dock inte hänsyn till övriga kvanttal.
+Bankvanttalet $l$ relaterar till elektronens rörelsemängdsmoment och är likt huvudkvanttalet $n$ ett positivt heltal.
+Bankvanttalet $l$ är dock strikt mindre än $n$, vilket innebär att för varje ''skal'' $n$ finns det $n-1$ underskal relaterade till kvanttalet $l$.
+Dessutom förekommer det magnetiska kvanttalet $m$, som beskriver rörelsemängdsmomentkvanttalets projektion på en given axel.
+$m$ är även det ett heltal med möjliga värden mellan $-l \rightarrow l$.
+Avslutningsvis finns även spinnkvanttalet $s$, där elektronen kan ha spinn $\frac{1}{2}$ (spinn upp) eller spinn $-\frac{1}{2}$ (spinn ned).
+
 % År 1918 publicerade Niels Bohr sin atommodell, där atomen beskrivs som ett system bestående av en central positivt laddad kärna.
 % Kring denna positivt laddade kärna cirkulerar flera negativt laddade elektroner, som hölls i sin omloppsbana tack vare den elektrostatiska kraften.
 
-% \begin{figure}[ht]
-%     \centering
-%     \includegraphics[width=0.5\linewidth]{../Bilder/Bohr_atom_model.png}
-%     \caption{}
-%     \label{fig:Bohr_atom_model}
-% \end{figure}
 
 % Dessa elektroner cirkulerade i Bohrs atommodell bestämda avstånd, motsvarande kvanttalet $n$.
 % Varje avstånd hade en given diskret energi som stod i direkt relation med kvanttalet $n$ enligt sambandet 
