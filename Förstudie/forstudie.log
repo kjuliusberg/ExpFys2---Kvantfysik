@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  17 MAR 2026 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  17 MAR 2026 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -794,11 +794,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <../Bilder/Bohr_atom_model.png, id=52, 243.15843pt x 121.95563pt>
 File: ../Bilder/Bohr_atom_model.png Graphic file (type png)
 <use ../Bilder/Bohr_atom_model.png>
-Package pdftex.def Info: ../Bilder/Bohr_atom_model.png  used on input line 80.
+Package pdftex.def Info: ../Bilder/Bohr_atom_model.png  used on input line 82.
 (pdftex.def)             Requested size: 227.62206pt x 114.16376pt.
 
 
-[3 <../Bilder/Bohr_atom_model.png>] (forstudie.aux)
+[3 <../Bilder/Bohr_atom_model.png>]
+
+[4] (forstudie.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -810,17 +812,17 @@ Package logreq Info: Writing requests to 'forstudie.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26258 strings out of 473523
- 498283 string characters out of 5714631
+ 26259 strings out of 473523
+ 498289 string characters out of 5714631
  1311055 words of memory out of 5000000
  49179 multiletter control sequences out of 15000+600000
  566708 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,6n,81p,800b,1288s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on forstudie.pdf (3 pages, 152278 bytes).
+Output written on forstudie.pdf (4 pages, 153229 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
