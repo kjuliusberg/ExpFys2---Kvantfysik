@@ -104,13 +104,17 @@ En schematisk bild av Bohrs atommodell visas nedan i figur \ref{fig:Bohr_atom_mo
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\linewidth]{../Bilder/Bohr_atom_model.png}
-    \caption{}
+    \caption{\textit{Bohrs atommodell. Modellen utgår ifrån en positivt laddad kärna runt vilken det cirkulerar 
+    flera negativt laddade elektroner. Elektronerna cirkulerar runt kärnan på bestämda avstånd, så kallade skal,
+    som motsvaras av huvudkvanttalet $n$. Bohrs atommodell tar inte hänsyn till övriga kvanttal.}}
     \label{fig:Bohr_atom_model}
 \end{figure}
 
 Bohrs atommodell tar dock inte hänsyn till övriga kvanttal.
 Bankvanttalet $l$ relaterar till elektronens rörelsemängdsmoment och är likt huvudkvanttalet $n$ ett positivt heltal.
 Bankvanttalet $l$ är dock strikt mindre än $n$, vilket innebär att för varje ''skal'' $n$ finns det $n-1$ underskal relaterade till kvanttalet $l$.
+Dessa underskal benämns enligt konvention med bokstäver istället för siffror, så de första 4 underskalen kallas s, p, d och f istället för 1, 2, 3 och 4.
+
 Dessutom förekommer det magnetiska kvanttalet $m$, som beskriver bankvanttalets projektion på en given axel.
 $m$ är även det ett heltal med möjliga värden mellan $-l \rightarrow l$.
 Avslutningsvis finns även spinnkvanttalet $s$, där elektronen kan ha spinn $\frac{1}{2}$ (spinn upp) eller spinn $-\frac{1}{2}$ (spinn ned).
@@ -126,52 +130,68 @@ En foton har en energi som är linjärt proportionerlig mot frekvensen enligt sa
 \end{equation}
 
 där $E$ är energin, $f$ är frekvensen och $\lambda$ är våglängden.
-När en elektron går från en högre energinivå till en lägre energinivå kommer den att avge en foton med energin 
+När en elektron går från en högre energinivå $E_i$ till en lägre energinivå $E_f$ kommer den att avge en foton med energin 
 \begin{equation}
-    E = E_{2} - E_1.
+    E = E_{i} - E_f.
     \label{eq:energiskillnad}
 \end{equation}
 Eftersom energinivåerna i atomen är specifika kommer också alla energiskillnader mellan nivåer att vara specifika.
 Detta innebär att atomen kommer sända ut ett spektrum av fotoner med diskreta frekvenser,
 vilket ger upphov till ett linjespektrum där varje spektrallinje motsvarar en övergång mellan 2 energitillstånd.
+Figur \ref{fig:Exempel_emissionsspektra} visar ett simulerat emissionsspektrum där energiövergångarna emitterar fotoner med våglängder 450, 600 och 720 nm.
 
-Alla energiövergångar är dock inte tillåtna, utan bestäms av så kallade urvalsregler.
-
-
-% Gjorde ett exempel på spektrum som vi kan erhålla för jag ville ha lite mer att snacka om i förväntade resultat än "who knows"
-% Om du vill snacka lite om det tror jag det hade passat, lade koden i dataanalys
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{../Bilder/Exempel_emissionsspektra.png}
-    \caption{\textit{}}
+    \includegraphics[width=0.7\textwidth]{../Bilder/Exempel_emissionsspektra.png}
+    \caption{\textit{Simulerat emissionsspektrum. Figuren visar hur ett fiktivt grundämne emitterar fotoner med energier som
+    motsvarar våglängderna 450, 600 och 720 nm.}}
     \label{fig:Exempel_emissionsspektra}
 \end{figure}
-\section{Metod}
 
+Alla energiövergångar är dock inte tillåtna, utan bestäms av så kallade urvalsregler, vilka bestämmer vilka övergångar som är tillåtna.
+För elektriska dipolövergångar, som dominerar atomära spektrum, gäller till exempel urvalsregeln
+\begin{equation}
+    \Delta l = \pm 1.
+\end{equation}
+Detta skapar en karta över möjliga energiövergångar, vilket gör det möjligt att konstruera så kallade energinivådiagram.
+Dessa diagram visar grafiskt vilka energiövergångar som är tillåtna.
+Figur \ref{fig:energinivådiagram_väte} visar energinivådiagrammet för väte för de första 4 huvudkvanttalen $n$.
+Värt att notera är att inga övergångar sker mellan tillstånd med samma bankvanttal $l$.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../Bilder/energinivådiagram_väte.png}
+    \caption{\textit{Energinivådiagram för de första 4 huvudkvanttalen av väte. Noterbart är att samtliga övergångar 
+    följer urvalsregeln $\Delta l = \pm 1$. }}
+    \label{fig:energinivådiagram_väte}
+\end{figure}
+
+
+\section{Metod}
 \subsection{Försöksuppställning}
-Uppställningen förväntas använda spektrometern SPEX 270M, ett Hamamatsu R375 fotomultiplikatorrör, en Keithley 485 picoamperemeter
+Uppställningen förväntas använda spektrumetern SPEX 270M, ett Hamamatsu R375 fotomultiplikatorrör, en Keithley 485 picoamperemeter
 och en ljuskälla, enligt figur \ref{fig:Försöksuppställning}. Ljuskällan exciterar ett grundämne som vid deexcitation utstrålar ljus. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{../Bilder/SPEX_270M.jpg}
+    \includegraphics[width=1\textwidth]{../Bilder/SPEX_270M.jpg}
     \caption{\textit{Den försöksuppställning som förväntas användas under laborationen. En ljuskälla från det exciterade ämnet 
-    lyser in i en spektrometer och förstärks med en fotomultiplikator. Signalen från fotomultiplikatorn mäts med en picoamperemeter.
+    lyser in i en spektrumeter och förstärks med en fotomultiplikator. Signalen från fotomultiplikatorn mäts med en picoamperemeter.
     Hela uppställningen styrs via LabVIEW.}}
     \label{fig:Försöksuppställning}
 \end{figure}
 \subsection{Genomförande}
-Då ljuskällan lyser in i spektrometern kan en enskilld våglängd väljas genom att justera gittrets position med en inre motor. Den monokroma strålen förstärks
+Då ljuskällan lyser in i spektrumetern kan en enskild våglängd väljas genom att justera gittrets position med en inre motor. Den monokroma strålen förstärks
 i fotomultiplikatorröret och översätts till en elektrisk signal som kan mätas med picoamperemetern. Genom att justera vilken våglängd som väljs
 i spektrometern och dokumentera strömstyrkan som mäts med amperemetern kan strömmens beroende på våglängden bestämmas. Ett emissionsspektrum kan 
-sedan bildas genom att plotta strömmen mot våglängden. Både spektrometern och picoamperemetern
+sedan bildas genom att plotta strömmen mot våglängden. Både spektrumetern och picoamperemetern
 förväntas styras via en egenskriven LabVIEW-kod, se appendix \ref{appendix:Labview}.
 
-Från emmisionsspektrumet kan sedan ett energinivådiagram konstrueras genom att finna centrum på spektrumets toppar och använda 
+Från emissionsspektrumet kan sedan ett energinivådiagram konstrueras genom att finna centrum på spektrumets toppar och använda 
 ekvationerna \ref{eq:energiskillnad} och \ref{eq:energi-våglängd-relation}.
 
 \section{Förväntade resultat}
-Det exakta emmisionsspektrumet kan inte bestämmas utan att veta vilket grundämne som ska undersökas. Däremot kommer spektrumet anta ett generiskt utseende enligt figur \ref{fig:Exempel_emissionsspektra}.
-Det förväntas finnas diskreta toppar som påvisar de våglängder ämnet emitterar. Energinivådiagrammet förväntas även kunna konstrueras från emissionspektrumet.
+Det exakta emissionsspektrumet kan inte bestämmas utan att veta vilket grundämne som ska undersökas. Däremot kommer spektrumet anta ett generiskt utseende enligt figur \ref{fig:Exempel_emissionsspektra}.
+Det förväntas finnas diskreta toppar som påvisar de våglängder ämnet emitterar. Energinivådiagrammet förväntas även kunna konstrueras från emissionsspektrumet.
 \section{Diskussion}
 
 % \newpage
@@ -184,8 +204,8 @@ Under laborationen förväntas ett egenskrivet LabVIEW-programm användas. Block
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.25\linewidth, angle = -90]{../Bilder/Kvant Labview-bild.png}
-    \caption{\textit{Den LabVIEW-kod som förväntas användas under laborationen. Först initaliseras spektrometern och amperemetern.
-    Sedan väljs vilken våglängd som spektrometern ska låta igenom och strömmen från amperemetern sparas tillsammans med våglängden.
+    \caption{\textit{Den LabVIEW-kod som förväntas användas under laborationen. Först initialiseras spektrumetern och amperemetern.
+    Sedan väljs vilken våglängd som spektrumetern ska låta igenom och strömmen från amperemetern sparas tillsammans med våglängden.
     Till sist sparas en .csv fil med våglängder och den ström som mäts vilket tillsammans bildar kan plottas till en intensitetsfördelning.}}
     \label{fig:LabVIEW-kod}
 \end{figure}

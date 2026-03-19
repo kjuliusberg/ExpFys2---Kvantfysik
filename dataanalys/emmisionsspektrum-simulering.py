@@ -15,9 +15,9 @@ for i in range(len(cents)):
 intensity = noise + peaks
 plt.style.use('ggplot')
 
-fig, ax = plt.subplots()
+plt.figure(figsize=(12, 6))
 plt.plot(wavelengths, intensity)
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 
-plt.savefig('Exempel_emissionsspektra.png')
+plt.savefig('Bilder/Exempel_emissionsspektra.png')
