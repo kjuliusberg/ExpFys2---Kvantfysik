@@ -53,7 +53,7 @@
 \thispagestyle{empty}
 \begin{center}
 {\huge\bf Förstudie - Kvantfysik:\\}
-{\Large\bf Studier av atomära spektrum
+{\Large\bf studier av atomära emissionsspektrum
 }
 \end{center}
 \vspace{1.0cm}
@@ -168,32 +168,39 @@ Värt att notera är att inga övergångar sker mellan tillstånd med samma bank
 
 
 \section{Metod}
+Nedan presenteras den metod och försöksuppställning som förväntas användas under laborationen. 
 \subsection{Försöksuppställning}
-Uppställningen förväntas använda spektrumetern SPEX 270M, ett Hamamatsu R375 fotomultiplikatorrör, en Keithley 485 picoamperemeter
-och en ljuskälla, enligt figur \ref{fig:Försöksuppställning}. Ljuskällan exciterar ett grundämne som vid deexcitation utstrålar ljus. 
+Uppställningen förväntas bestå av spektrumetern SPEX 270M, ett Hamamatsu R375 fotomultiplikatorrör, en Keithley 485 picoamperemeter
+och en ljuskälla, enligt figur \ref{fig:Försöksuppställning}. Ljuskällan förväntas vara en spektrallampa som exciterar det givna grundämnet
+och avger ett linjespektrum genom att ämnet deexciteras. Detta linjespektrum är vad som söks.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{../Bilder/SPEX_270M.jpg}
     \caption{\textit{Den försöksuppställning som förväntas användas under laborationen. En ljuskälla från det exciterade ämnet 
-    lyser in i en spektrumeter och förstärks med en fotomultiplikator. Signalen från fotomultiplikatorn mäts med en picoamperemeter.
-    Hela uppställningen styrs via LabVIEW.}}
+    lyser in i en spektrumeter där alla utom en våglängd filtreras bort. Den nu monokroma strålen förstärks i ett fotomultiplikatorrör och översätts
+    till en ström som kan mätas med en picoamperemeter. Hela uppställningen förväntas styras via LabVIEW.}}
     \label{fig:Försöksuppställning}
 \end{figure}
+Spektrometern fungerar som en gittermonokromator och kommer användas för att selektera en specifik våglängd från spektrallampans spektrum.
+Detta sker genom att rotera ett redan installerat, Blazer \SI{500}{nm}, gitter i små steg som korresponderar till ett linjärt ökande i våglängd.
+De små stegen som gittret behöver roteras beror på gittrets spårtäthet. 
 \subsection{Genomförande}
-Då ljuskällan lyser in i spektrumetern kan en enskild våglängd väljas genom att justera gittrets position med en inre motor. Den monokroma strålen förstärks
-i fotomultiplikatorröret och översätts till en elektrisk signal som kan mätas med picoamperemetern. Genom att justera vilken våglängd som väljs
-i spektrometern och dokumentera strömstyrkan som mäts med amperemetern kan strömmens beroende på våglängden bestämmas. Ett emissionsspektrum kan 
-sedan bildas genom att plotta strömmen mot våglängden. Både spektrumetern och picoamperemetern
-förväntas styras via en egenskriven LabVIEW-kod, se appendix \ref{appendix:Labview}.
-
-Från emissionsspektrumet kan sedan ett energinivådiagram konstrueras genom att finna centrum på spektrumets toppar och använda 
+Då ljuskällan lyser in i spektrumetern kommer en enskild våglängd väljas genom att justera gittrets position. Den monokroma strålen förstärks
+i fotomultiplikatorröret och översätts till en elektrisk signal som kan mätas med picoamperemetern. Genom att stegvis rotera gittret ökas våglängden 
+som släpps igenom spektrometern och dokumentera strömstyrkan som mäts med picoamperemetern kan strömmens beroende på våglängden bestämmas. Ett emissionsspektrum kan 
+sedan bildas genom att plotta den uppmätta strömmen mot våglängden. Både spektrumetern och picoamperemetern
+förväntas styras via ett egenskrivet LabVIEW-program, se appendix \ref{appendix:Labview}. Från emissionsspektrumet kan sedan ett energinivådiagram konstrueras genom att finna centrum på spektrumets toppar och använda 
 ekvationerna \ref{eq:energiskillnad} och \ref{eq:energi-våglängd-relation}.
 
 \section{Förväntade resultat}
-Det exakta emissionsspektrumet kan inte bestämmas utan att veta vilket grundämne som ska undersökas. Däremot kommer spektrumet anta ett generiskt utseende enligt figur \ref{fig:Exempel_emissionsspektra}.
-Det förväntas finnas diskreta toppar som påvisar de våglängder ämnet emitterar. Energinivådiagrammet förväntas även kunna konstrueras från emissionsspektrumet.
+Det exakta emissionsspektrumet och energinivådiagrammet kan inte förutsägas utan att veta vilket grundämne som ska undersökas. Däremot kommer spektrumet anta ett 
+generiskt utseende, likt figur \ref{fig:Exempel_emissionsspektra}. Toppar kommer däremot erhållas vid de våglängder som korresponderar till energiskillnaden mellan 
+energinivåer. Energinivådiagrammet förväntas även kunna konstrueras från topparna i emissionsspektrat.
 \section{Diskussion}
-
+Den största osäkerheten ligger i hur stor strömmen från fotomultiplikatorröret är. Det förväntas att picoamperemetern kan mäta den, men skulle den vara för liten
+kommer den behöva förstärkas innan den mäts. Även gittrets okända spårtäthet kan medföra problem. Om spektrometern inte är förinställd med denna vet den inte hur små
+steg gittret ska roteras för att välja specifika våglängder. Detta förväntas däremot inte vara något större problem då spektrometern förväntas vara förinställd 
+med rätt spårtäthet.
 % \newpage
 % \printbibliography
 \appendix
