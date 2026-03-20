@@ -6,4 +6,4 @@
 \contentsline {subsection}{\numberline {3.2}Genomförande}{5}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Förväntade resultat}{5}{section.4}%
 \contentsline {section}{\numberline {5}Diskussion}{5}{section.5}%
-\contentsline {section}{\numberline {A}LabVIEW-kod}{6}{appendix.A}%
+\contentsline {section}{\numberline {A}LabVIEW-kod}{7}{appendix.A}%

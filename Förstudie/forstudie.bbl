@@ -16,5 +16,161 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{rana_quantum_electronics}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c260b58113f1eb4b29f6dbff9dbf5126}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={Farhan},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill}%
+      }
+      \strng{namehash}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{fullhash}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{fullhashraw}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{bibnamehash}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{authorbibnamehash}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{authornamehash}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{authorfullhash}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \strng{authorfullhashraw}{c260b58113f1eb4b29f6dbff9dbf5126}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AccessScience}
+      \field{month}{1}
+      \field{title}{Quantum electronics}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1036/1097-8542.562700
+      \endverb
+    \endentry
+    \entry{tessenyi_molecular_detectability}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=921d0301844a15fe085e91694d00bb59}{%
+           family={Tessenyi},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5d6387ac1a1a499c557a6deb9ea350ac}{%
+           family={Tinetti},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=09a5f51cdcec0a00e0ad3456f7cf5ba3}{%
+           family={Savini},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=10eb6be5df84ef7ddf05672a3df26039}{%
+           family={Pascale},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{226ef4b65664fbc3dc49e5a946a11825}
+      \strng{fullhash}{73f1c01e9e12d306b74a7f72d3e12be7}
+      \strng{fullhashraw}{73f1c01e9e12d306b74a7f72d3e12be7}
+      \strng{bibnamehash}{73f1c01e9e12d306b74a7f72d3e12be7}
+      \strng{authorbibnamehash}{73f1c01e9e12d306b74a7f72d3e12be7}
+      \strng{authornamehash}{226ef4b65664fbc3dc49e5a946a11825}
+      \strng{authorfullhash}{73f1c01e9e12d306b74a7f72d3e12be7}
+      \strng{authorfullhashraw}{73f1c01e9e12d306b74a7f72d3e12be7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{number}{2}
+      \field{title}{Molecular detectability in exoplanetary emission spectra}
+      \field{volume}{226}
+      \field{year}{2013}
+      \field{pages}{1654\bibrangedash 1672}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2013.08.022
+      \endverb
+    \endentry
+    \entry{griffiths2018quantum_mechanics}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a00328547222c4a2a201442ee59dccfd}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7a89e36dbf4f2fc28b7fa782d433b9e9}{%
+           family={Schroeter},
+           familyi={S\bibinitperiod},
+           given={Darrell\bibnamedelima F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{fullhash}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{fullhashraw}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{bibnamehash}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{authorbibnamehash}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{authornamehash}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{authorfullhash}{53401a5b91631c47aa1d458117bf3f6f}
+      \strng{authorfullhashraw}{53401a5b91631c47aa1d458117bf3f6f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{9781107189638}
+      \field{title}{Introduction to Quantum Mechanics}
+      \field{year}{2018}
+      \keyw{quantum,quantum-mechanics,textbook,undergraduate}
+    \endentry
+    \entry{bayfield_electron_configuration}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d13f0a49acb8c1997cd2a1b889cbd02}{%
+           family={Bayfield},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill}%
+      }
+      \strng{namehash}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{fullhash}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{fullhashraw}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{bibnamehash}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{authorbibnamehash}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{authornamehash}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{authorfullhash}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \strng{authorfullhashraw}{6d13f0a49acb8c1997cd2a1b889cbd02}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AccessScience}
+      \field{month}{8}
+      \field{title}{Electron configuration}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1036/1097-8542.223900
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
