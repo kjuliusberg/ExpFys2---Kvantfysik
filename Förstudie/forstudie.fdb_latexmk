@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber forstudie"] 1774026820.35226 "forstudie.bcf" "forstudie.bbl" "forstudie" 1774026823.63556 0
-  "../references.bib" 1774026656 1339 8b86e66d9ac59c71291dcf25344ccca1 ""
-  "forstudie.bcf" 1774026823 108506 40ec3b4cefbff06b6911c13f94ee4761 "pdflatex"
+["biber forstudie"] 1774104174.70703 "forstudie.bcf" "forstudie.bbl" "forstudie" 1774104178.20201 0
+  "../references.bib" 1774103895 2027 4fa531a700fe192c850c64ee7d524cc4 ""
+  "forstudie.bcf" 1774104178 109292 7d32eec707d0ff461c5ba5f1ec2d7ccb "pdflatex"
   (generated)
   "forstudie.bbl"
   "forstudie.blg"
   (rewritten before read)
-["pdflatex"] 1774026822.07596 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" "forstudie.pdf" "forstudie" 1774026823.63618 0
+["pdflatex"] 1774104176.52166 "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" "forstudie.pdf" "forstudie" 1774104178.20264 0
   "../Bilder/Bohr_atom_model.png" 1773751750 43158 9cff0615403e96505dae798c784e1c24 ""
   "../Bilder/Exempel_emissionsspektra.png" 1773909254 49533 c1959d4e70ccb9b6b5cfea89c01e1c74 ""
   "../Bilder/Kvant Labview-bild.png" 1773906417 49435 677d6750214bac85872e0fde55a62576 ""
@@ -27,6 +27,8 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx2074.tfm" 993061964 3208 da5ec29ca7c2f5f55c296dd6713d4a74 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/eccc1000.tfm" 993061980 2788 9da2d2e7e17b2a98c3aa301c9668a522 ""
+  "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0500.tfm" 993062114 3160 7643a152c0e9200a0a8161b2bb3a452d ""
+  "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0700.tfm" 993062116 3168 c739b83da3134ef1007979877c1089cf ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1000.tfm" 993062122 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
@@ -155,13 +157,13 @@
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/kjuli/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" 1774026818 13675 e39a6e9b4acee089da7f1f81072be1bc ""
-  "forstudie.aux" 1774026823 6593 0b7703333ff0d0181bfdc17fd9abfb7c "pdflatex"
-  "forstudie.bbl" 1774026822 6694 2c905523e78fac5c4aaff722bfeec458 "biber forstudie"
-  "forstudie.out" 1774026823 844 f7680d109564f32db4932a431e004bde "pdflatex"
-  "forstudie.run.xml" 1774026823 2440 ef59f482faf4f561ecad5970095c82c9 "pdflatex"
-  "forstudie.tex" 1774026818 13675 e39a6e9b4acee089da7f1f81072be1bc ""
-  "forstudie.toc" 1774026823 595 0bee0792b81bb5e691013b1f972c85aa "pdflatex"
+  "c:/Users/kjuli/OneDrive/Chalmers/3/Experimentell fysik 2/Kvantfysik/ExpFys2---Kvantfysik/Förstudie/forstudie.tex" 1774104172 13769 d381df7ffc05a0497db1c0df704d68b4 ""
+  "forstudie.aux" 1774104177 7549 6e37a065014c4e3e63a3d615651f8d2b "pdflatex"
+  "forstudie.bbl" 1774104176 10061 4cc09727edc6cab66de78c92409660e9 "biber forstudie"
+  "forstudie.out" 1774104177 844 f7680d109564f32db4932a431e004bde "pdflatex"
+  "forstudie.run.xml" 1774104178 2440 ef59f482faf4f561ecad5970095c82c9 "pdflatex"
+  "forstudie.tex" 1774104172 13769 d381df7ffc05a0497db1c0df704d68b4 ""
+  "forstudie.toc" 1774104178 595 0bee0792b81bb5e691013b1f972c85aa "pdflatex"
   (generated)
   "forstudie.aux"
   "forstudie.bcf"

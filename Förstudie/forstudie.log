@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  20 MAR 2026 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.9)  21 MAR 2026 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -804,7 +804,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-<../Bilder/Bohr_atom_model.png, id=61, 243.15843pt x 121.95563pt>
+<../Bilder/Bohr_atom_model.png, id=63, 243.15843pt x 121.95563pt>
 File: ../Bilder/Bohr_atom_model.png Graphic file (type png)
 <use ../Bilder/Bohr_atom_model.png>
 Package pdftex.def Info: ../Bilder/Bohr_atom_model.png  used on input line 114.
@@ -812,12 +812,12 @@ Package pdftex.def Info: ../Bilder/Bohr_atom_model.png  used on input line 114.
 
 
 [3 <../Bilder/Bohr_atom_model.png>]
-<../Bilder/Exempel_emissionsspektra.png, id=84, 867.24pt x 433.62pt>
+<../Bilder/Exempel_emissionsspektra.png, id=93, 867.24pt x 433.62pt>
 File: ../Bilder/Exempel_emissionsspektra.png Graphic file (type png)
 <use ../Bilder/Exempel_emissionsspektra.png>
 Package pdftex.def Info: ../Bilder/Exempel_emissionsspektra.png  used on input line 153.
 (pdftex.def)             Requested size: 318.66948pt x 159.33192pt.
-<../Bilder/energinivådiagram_väte.png, id=87, 249.18094pt x 82.80937pt>
+<../Bilder/energinivådiagram_väte.png, id=100, 249.18094pt x 82.80937pt>
 File: ../Bilder/energinivådiagram_väte.png Graphic file (type png)
 <use ../Bilder/energinivådiagram_väte.png>
 Package pdftex.def Info: ../Bilder/energinivådiagram_väte.png  used on input line 171.
@@ -825,7 +825,7 @@ Package pdftex.def Info: ../Bilder/energinivådiagram_väte.png  used on input l
 
 
 [4 <../Bilder/Exempel_emissionsspektra.png> <../Bilder/energinivådiagram_väte.png>]
-<../Bilder/SPEX_270M.jpg, id=102, 1445.4pt x 280.79906pt>
+<../Bilder/SPEX_270M.jpg, id=115, 1445.4pt x 280.79906pt>
 File: ../Bilder/SPEX_270M.jpg Graphic file (type jpg)
 <use ../Bilder/SPEX_270M.jpg>
 Package pdftex.def Info: ../Bilder/SPEX_270M.jpg  used on input line 186.
@@ -835,7 +835,7 @@ Package pdftex.def Info: ../Bilder/SPEX_270M.jpg  used on input line 186.
 [5 <../Bilder/SPEX_270M.jpg>]
 
 [6]
-<../Bilder/Kvant Labview-bild.png, id=124, 1902.10625pt x 391.4625pt>
+<../Bilder/Kvant Labview-bild.png, id=138, 1902.10625pt x 391.4625pt>
 File: ../Bilder/Kvant Labview-bild.png Graphic file (type png)
 <use ../Bilder/Kvant Labview-bild.png>
 Package pdftex.def Info: ../Bilder/Kvant Labview-bild.png  used on input line 221.
@@ -854,17 +854,17 @@ Package logreq Info: Writing requests to 'forstudie.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26613 strings out of 473523
- 506837 string characters out of 5714631
- 1315628 words of memory out of 5000000
- 49505 multiletter control sequences out of 15000+600000
- 568380 words of font info for 55 fonts, out of 8000000 for 9000
+ 26632 strings out of 473523
+ 507382 string characters out of 5714631
+ 1315764 words of memory out of 5000000
+ 49520 multiletter control sequences out of 15000+600000
+ 569914 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,9n,81p,800b,1514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,9n,81p,800b,1524s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kjuli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/kjuli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on forstudie.pdf (7 pages, 362865 bytes).
+Output written on forstudie.pdf (7 pages, 367971 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

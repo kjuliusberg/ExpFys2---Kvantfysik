@@ -53,6 +53,53 @@
       \verb 10.1036/1097-8542.562700
       \endverb
     \endentry
+    \entry{TKACHENKO2006107}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=2be471113c7deabd0944288f6817cbc6}{%
+           family={Tkachenko},
+           familyi={T\bibinitperiod},
+           given={Nikolai\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2be471113c7deabd0944288f6817cbc6}{%
+           family={Tkachenko},
+           familyi={T\bibinitperiod},
+           given={Nikolai\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science}%
+      }
+      \strng{namehash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{fullhash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{fullhashraw}{2be471113c7deabd0944288f6817cbc6}
+      \strng{bibnamehash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{authorbibnamehash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{authornamehash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{authorfullhash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{authorfullhashraw}{2be471113c7deabd0944288f6817cbc6}
+      \strng{editorbibnamehash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{editornamehash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{editorfullhash}{2be471113c7deabd0944288f6817cbc6}
+      \strng{editorfullhashraw}{2be471113c7deabd0944288f6817cbc6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Optical Spectroscopy}
+      \field{isbn}{978-0-444-52126-2}
+      \field{title}{Chapter 6 - Steady State Emission Spectroscopy}
+      \field{year}{2006}
+      \field{pages}{107\bibrangedash 127}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-044452126-2/50030-7
+      \endverb
+    \endentry
     \entry{tessenyi_molecular_detectability}{article}{}{}
       \name{author}{4}{}{%
         {{hash=921d0301844a15fe085e91694d00bb59}{%
@@ -87,8 +134,8 @@
       \strng{authornamehash}{226ef4b65664fbc3dc49e5a946a11825}
       \strng{authorfullhash}{73f1c01e9e12d306b74a7f72d3e12be7}
       \strng{authorfullhashraw}{73f1c01e9e12d306b74a7f72d3e12be7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Icarus}
@@ -126,8 +173,8 @@
       \strng{authornamehash}{53401a5b91631c47aa1d458117bf3f6f}
       \strng{authorfullhash}{53401a5b91631c47aa1d458117bf3f6f}
       \strng{authorfullhashraw}{53401a5b91631c47aa1d458117bf3f6f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{3}
@@ -135,6 +182,39 @@
       \field{title}{Introduction to Quantum Mechanics}
       \field{year}{2018}
       \keyw{quantum,quantum-mechanics,textbook,undergraduate}
+    \endentry
+    \entry{physicshandbook}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=9f1e1516612ef6af7f2ce8e46074a7cd}{%
+           family={Nordling},
+           familyi={N\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=49466ab160075b0480f7bc897fbc5971}{%
+           family={Österman},
+           familyi={Ö\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Studentlitteratur}%
+      }
+      \strng{namehash}{0622f1f89919f663633d80cbd96041a5}
+      \strng{fullhash}{0622f1f89919f663633d80cbd96041a5}
+      \strng{fullhashraw}{0622f1f89919f663633d80cbd96041a5}
+      \strng{bibnamehash}{0622f1f89919f663633d80cbd96041a5}
+      \strng{authorbibnamehash}{0622f1f89919f663633d80cbd96041a5}
+      \strng{authornamehash}{0622f1f89919f663633d80cbd96041a5}
+      \strng{authorfullhash}{0622f1f89919f663633d80cbd96041a5}
+      \strng{authorfullhashraw}{0622f1f89919f663633d80cbd96041a5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{isbn}{9789144128061}
+      \field{title}{Physics Handbook - for science and engineering}
+      \field{year}{2020}
     \endentry
     \entry{bayfield_electron_configuration}{article}{}{}
       \name{author}{1}{}{%
@@ -158,8 +238,8 @@
       \strng{authornamehash}{6d13f0a49acb8c1997cd2a1b889cbd02}
       \strng{authorfullhash}{6d13f0a49acb8c1997cd2a1b889cbd02}
       \strng{authorfullhashraw}{6d13f0a49acb8c1997cd2a1b889cbd02}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{AccessScience}
