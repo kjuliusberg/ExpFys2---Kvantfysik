@@ -4,33 +4,47 @@ import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 
 file_Na = pd.read_csv('dataanalys/mätningar/Natrium_FULL_SPEKTRA.csv', sep=';')
+file_Na_peaks_1 = pd.read_csv('dataanalys/mätningar/Natrium_FULL_Spectra_v2.csv', sep = ';')
+file_Na_peaks_2 = pd.read_csv('dataanalys/mätningar/Natrium_TEST_v2-2.csv', sep = ';')
+file_Na_peaks_3 = pd.read_csv('dataanalys/mätningar/Natrium_TEST_v2-3.csv', sep = ';')
 file_H1 = pd.read_csv('dataanalys/mätningar/Väte_mätning_1.csv', sep = ';')
+file_H2 = pd.read_csv('dataanalys/mätningar/Väte_mätning_2.csv', sep = ';')
+file_H3 = pd.read_csv('dataanalys/mätningar/Väte_mätning_3.csv', sep = ';')
 
-files = [file_Na, file_H1]
+files = [file_Na, file_Na_peaks_1, file_Na_peaks_3, file_H1, file_H2, file_H3]
 
-R = 1.097e-2
-
-def spectra(file, plot=True):
+for file in files:
     file['Intensity'] = file['Intensity'].str.replace(',', '.').astype(float)
     file['Wavelenght'] = file['Wavelenght'].str.replace(',', '.').astype(float)
 
+
+R = 1.097e-2
+
+# Find peaks, and plot spectra for ONE file
+def spectra(file, plot=True):
     wavelenghts = np.array(file['Wavelenght'].values)
     intensities = np.array(file['Intensity'].values)
 
-    peaks = find_peaks(intensities, height=0.01, prominence=0.005*np.max(intensities))[0]
+    peaks = find_peaks(intensities, height=0.01, prominence=0.01)[0]
     intensity_peaks = intensities[peaks]
     wavelenghts_peaks = wavelenghts[peaks]
-
+    print(len(peaks))
     fig, ax = plt.subplots()
 
     plt.plot(wavelenghts, intensities)
     plt.scatter(wavelenghts_peaks, intensity_peaks, color = 'r')
+    plt.xlabel('Wavelength [nm]')
+    plt.ylabel('Intensity')
+    plt.title('Na')
     if plot == True:
         plt.show()
 
     return np.sort(wavelenghts_peaks)
 
-Na_peaks = spectra(files[0])
+# Plot NA-spectra
+#Na_peaks = spectra(files[0])
+Na_peaks = spectra(files[1])
+#Na_dpeaks_3 = spectra(files[3])
 
 H_peaks_teo = []
     
@@ -86,7 +100,44 @@ def match_lines(measured, transitions, tol=0.005):
     return pd.DataFrame(matches)
 
 
-H_peaks = spectra(files[1])
-what = match_lines(H_peaks, H_peaks_teo)
+# H_peaks = []
+# for file in files[4:]:
+#     H_peaks.append(spectra(file))
 
-print(what)
+# H_peaks = np.array(H_peaks)
+# H_peaks_mean = np.mean(H_peaks, axis=0)
+
+# result = match_lines(H_peaks_mean, H_peaks_teo)
+# print(result)
+
+def average(files, plot = True):
+
+    wavelenghts = []
+    intensities = []
+    for file in files:    
+        waves = file['Wavelenght']
+        ints = file['Intensity']
+        wavelenghts.append(waves)
+        intensities.append(ints)
+
+    intensities_mean = np.mean(np.array(intensities),axis=0)
+    wavelenghts_mean = np.mean(np.array(wavelenghts),axis=0)
+    ints_std = np.std(intensities, axis=0)
+    peaks = find_peaks(intensities_mean, prominence=0.003, distance=2)[0]
+    intensity_peaks = intensities_mean[peaks]
+    wavelenghts_peaks = wavelenghts_mean[peaks]
+    fig, ax = plt.subplots()
+
+    plt.plot(wavelenghts_mean, intensities_mean)
+    plt.scatter(wavelenghts_peaks, intensity_peaks, color = 'r')
+    plt.xlabel('Wavelength [nm]')
+    plt.ylabel('Intensity')
+    plt.title('Hydrogen')
+    if plot == True:
+        plt.show()
+    return wavelenghts_peaks
+
+H_peaks = average(files[4:])
+result = match_lines(H_peaks, H_peaks_teo)
+print(result)
+# spectra(file_H2)

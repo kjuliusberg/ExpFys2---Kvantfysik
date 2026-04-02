@@ -1,0 +1,204 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.signal import find_peaks
+
+file_H1 = pd.read_csv('dataanalys/mätningar/Väte_mätning_1.csv', sep=';')
+file_H2 = pd.read_csv('dataanalys/mätningar/Väte_mätning_2.csv', sep=';')
+file_H3 = pd.read_csv('dataanalys/mätningar/Väte_mätning_3.csv', sep=';')
+
+files = [file_H1, file_H2, file_H3]
+
+# Fix decimal format
+for file in files:
+    file['Intensity'] = file['Intensity'].str.replace(',', '.').astype(float)
+    file['Wavelenght'] = file['Wavelenght'].str.replace(',', '.').astype(float)
+
+
+prominence_H1 = 0.008
+distance_H1 = 10
+
+
+wavelengths_H1 = file_H1['Wavelenght'].values
+intensities_H1 = file_H1['Intensity'].values
+
+peaks_H1, props = find_peaks(intensities_H1, prominence=prominence_H1, distance=distance_H1)
+
+H1_wave_peaks = wavelengths_H1[peaks_H1]
+H1_ints_peaks = intensities_H1[peaks_H1]
+
+plt.figure()
+plt.plot(wavelengths_H1, intensities_H1)
+plt.scatter(wavelengths_H1[peaks_H1], intensities_H1[peaks_H1], color='red')
+plt.xlabel('Våglängd [nm]')
+plt.ylabel('Intensitet')
+plt.title('H1-spektra')
+plt.show()
+
+prominence_H2 = 0.008
+distance_H2 = 10
+
+wavelengths_H2 = file_H2['Wavelenght'].values
+intensities_H2 = file_H2['Intensity'].values
+
+peaks_H2, props = find_peaks(intensities_H2, prominence=prominence_H2, distance=distance_H2)
+
+H2_wave_peaks = wavelengths_H2[peaks_H2]
+H2_ints_peaks = intensities_H2[peaks_H2]
+
+plt.figure()
+plt.plot(wavelengths_H2, intensities_H2)
+plt.scatter(wavelengths_H2[peaks_H2], intensities_H2[peaks_H2], color='red')
+plt.xlabel('Våglängd [nm]')
+plt.ylabel('Intensitet')
+plt.title('H2-spektra')
+plt.show()
+
+
+prominence_H3 = 0.008
+distance_H3 = 10
+
+wavelengths_H3 = file_H3['Wavelenght'].values
+intensities_H3 = file_H3['Intensity'].values
+
+peaks_H3, props = find_peaks(intensities_H3, prominence=prominence_H3, distance=distance_H3)
+
+H3_wave_peaks = wavelengths_H3[peaks_H3]
+H3_ints_peaks = intensities_H3[peaks_H3]
+
+plt.figure()
+plt.plot(wavelengths_H3, intensities_H3)
+plt.scatter(wavelengths_H3[peaks_H3], intensities_H3[peaks_H3], color='red')
+plt.xlabel('Våglängd [nm]')
+plt.ylabel('Intensitet')
+plt.title('H3-spektra')
+plt.show()
+
+all_peaks = np.array([H1_wave_peaks, H2_wave_peaks, H3_wave_peaks])
+all_ints = np.array([H1_ints_peaks, H2_ints_peaks, H3_ints_peaks])
+
+average_peaks = np.mean(all_peaks, axis=0)
+average_ints = np.mean(all_ints, axis=0)
+
+std_peaks = np.std(all_peaks, axis=0)
+std_ints = np.std(all_ints, axis=0)
+
+wavelengths = np.mean([wavelengths_H1, wavelengths_H2, wavelengths_H3], axis=0)
+intensities = np.mean([intensities_H1, intensities_H2, intensities_H3], axis=0)
+
+plt.figure()
+plt.plot(wavelengths, intensities)
+plt.scatter(average_peaks, average_ints, color='red')
+plt.xlabel('Våglängd [nm]')
+plt.ylabel('Intensitet')
+plt.title('Medelvärderat spektra')
+plt.show()
+
+
+# Normalize intensities
+peak_ints = np.log10(average_ints + 1e-6)
+peak_ints = peak_ints - peak_ints.min()
+peak_ints = peak_ints / peak_ints.max()
+
+def wavelength_to_rgb(wavelength):
+    
+    if wavelength < 380:  # UV
+        return (0.3, 0.0, 0.5)  # dim purple
+    
+    elif wavelength > 780:  # IR
+        return (0.5, 0.0, 0.0)  # dim red
+    
+    # Visible spectrum
+    if 380 <= wavelength <= 440:
+        r, g, b = -(wavelength - 440) / (440 - 380), 0.0, 1.0
+    elif 440 < wavelength <= 490:
+        r, g, b = 0.0, (wavelength - 440) / (490 - 440), 1.0
+    elif 490 < wavelength <= 510:
+        r, g, b = 0.0, 1.0, -(wavelength - 510) / (510 - 490)
+    elif 510 < wavelength <= 580:
+        r, g, b = (wavelength - 510) / (580 - 510), 1.0, 0.0
+    elif 580 < wavelength <= 645:
+        r, g, b = 1.0, -(wavelength - 645) / (645 - 580), 0.0
+    else:  # 645–780
+        r, g, b = 1.0, 0.0, 0.0
+
+    return (r, g, b)
+
+# Plot
+plt.figure(figsize=(12, 2))
+plt.xlim(200, 1100)
+plt.ylim(0, 1)
+
+for wl, inten in zip(average_peaks, peak_ints):
+    color = wavelength_to_rgb(wl)
+    plt.vlines(wl, 0, 1, colors=[color], alpha=inten, linewidth=2)
+
+plt.gca().set_facecolor("black")
+plt.xticks([200, 400, 600, 800, 1000])
+plt.xlabel('Våglängd [nm]')
+plt.yticks([])
+plt.title("Emissionsspektra")
+
+plt.show()
+
+
+R = 1.097e-2
+
+H_peaks_teo = []
+    
+for n1 in range(1, 4):
+    for n2 in range(n1+1, 15):
+        inv_lambda = R * (1/n1**2 - 1/n2**2)
+            
+        if inv_lambda > 0:
+            lam = 1 / inv_lambda
+            if 200<lam<1100:    
+                H_peaks_teo.append({
+                    "n1": n1,
+                    "n2": n2,
+                    "lambda": lam
+                    })
+
+# for i in H_peaks_teo:
+#     print(i['lambda'])
+
+def match_lines(measured, transitions, stds, tol=0.005):
+    matches = []
+    
+    for lam_meas, std in zip(measured, stds):
+        best = None
+        best_error = np.inf
+        
+        for t in transitions:
+            lam_theory = t["lambda"]
+            
+            error = abs(lam_meas - lam_theory) / lam_theory
+            
+            if error < best_error:
+                best_error = error
+                best = t
+        
+        if best_error < tol:
+            matches.append({
+                "measured_nm": lam_meas,
+                "std_nm": std,
+                "n1": best["n1"],
+                "n2": best["n2"],
+                "theory_nm": best["lambda"],
+                "rel_error": best_error
+            })
+        else:
+            matches.append({
+                "measured_nm": lam_meas,
+                "std_nm": std,
+                "n1": None,
+                "n2": None,
+                "theory_nm": None,
+                "rel_error": None
+            })
+    
+    return pd.DataFrame(matches)
+
+
+matches = match_lines(average_peaks, H_peaks_teo, std_peaks)
+print(matches)
