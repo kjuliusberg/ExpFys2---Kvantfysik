@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{graphicx} 
 \usepackage{listings}
 \usepackage{xcolor} 
@@ -24,6 +24,9 @@
     sorting=none
 ]{biblatex}
 \usepackage{titling}
+\usepackage{pdfpages}
+\usepackage{subcaption}
+
 
 \addbibresource{../references.bib}
 
@@ -90,15 +93,83 @@ Syftet med denna studie är att för ett bestämt grundämne bestämma emissions
 \section{Metod}
 
 \subsection{Försöksuppställning}
+Under hela laborationen användes en spektrometer av modell SPEX 270M med monokromator 270MS24, ett Hamamatsu R375 fotomultiplikatorrör och en Keithley 
+485 picoamperemeter med tillhörande högspänningsaggregat monterade enligt figur \ref{fig:Uppställning}. Alla komponenter kontrollerades med ett externt 
+LabVIEW-program, för labVIEW-kod se appendix \ref{app:LabVIEW}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{../Bilder/hela_uppställning.jpg}
+    \caption{\textit{Den uppställning som användes under hela laborationen. I figuren syns en spektrometer med monterat fotomultiplikatorrör som sedan kopplats till en picoamperemeter.
+    Utöver det som visas i figuren användes även en Natriumlampa och ett vätespektralrör som placerades framför spektrometerns öppning.}}
+    \label{fig:Uppställning}
+\end{figure}
+
+Utöver mätinstrumenten användes även en natriumlampa och ett spektralrör innehållande väte, dessa visas i figur \ref{fig:lampor}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{../Bilder/natriumlampa.jpg}
+        \caption{\textit{Natriumlampa med hållare och spänningsaggregat.}}
+        \label{fig:natriumlampa}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{../Bilder/spektrallampa_tänd.jpg}
+        \caption{\textit{Spektralrör med väte i en hållare med spänningsaggregat.}}
+        \label{fig:väterör_tänd}
+    \end{subfigure}
+    \caption{\textit{De två lampor som användes under laborationen. I (a) syns en natriumlampa som användes för kalibreringen av den LabVIEW-kod som användes. I (b) syns i stället
+    ett spektralrör med väte i en hållare.}}
+    \label{fig:lampor}
+\end{figure}
 \subsection{Genomförande}
+Först placerades natriumlampan framför spektrometerns öppning och en mätning gjordes för att veta vilken vinkel på spektrometerns inre motor som korresponderar 
+till vilken våglängd. Efter kalibreringen gjordes en mätning över området 200-1100 nm med natriumlampan för att säkerställa att samtliga toppar
+erhålls på rätt plats. Därefter byttes natriumlampan ut mot ett spektralrör innehållande väte och tre mätningar gjordes över samma våglängdsintervall som för natriumlampan.
 
-\section{Förväntade resultat}
+Samtliga mätningar gjordes med ett samplingsintervall på 0,05 nm. Öppningarna för spektrometern sattes till 0,05 mm för natriummätningen och till 1 mm för vätemätningarna.
+\section{Resultat}
+Först erhölls emissionsspektrat för natriumlampan, detta visas i figur \ref{fig:emissionsspektra_NA}.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{../Bilder/NA_spectra.png}
+        \caption{\textit{Natriumlampa med hållare och spänningsaggregat.}}
+        \label{fig:emissionsspektra_NA_full}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{../Bilder/NA_spectra_doublepeaks.png}
+        \caption{\textit{Spektralrör med väte i en hållare med spänningsaggregat.}}
+        \label{fig:emissionsspektra_NA_dubbeltopp}
+    \end{subfigure}
+    \caption{\textit{De två lampor som användes under laborationen. I (a) syns en natriumlampa som användes för kalibreringen av den LabVIEW-kod som användes. I (b) syns i stället
+    ett spektralrör med väte i en hållare.}}
+    \label{fig:emissionsspektra_NA}
+\end{figure}
 
 \section{Diskussion}
 
+\section{Slutsatser}
 \newpage
 
 \printbibliography
 
+\appendix
+\section{Data- och felanalys av vätes emissionsspektra}
+\label{app:felanalys}
+\section{Kod för data- och felanalys}
+\label{app:python-kod}
+\section{LabVIEW-kod}
+\label{app:LabVIEW}
+\section{Labblogg}
+\label{app:Labblogg}
+Nedan presenteras den labblogg som skrevs under laborationen.
+\includepdf[pages=-]{Labblogg_Kvantfysik.pdf}
 \end{document}

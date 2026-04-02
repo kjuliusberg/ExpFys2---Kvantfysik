@@ -3,6 +3,11 @@
 \contentsline {section}{\numberline {2}Bakgrund}{3}{section.2}%
 \contentsline {section}{\numberline {3}Metod}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Försöksuppställning}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Genomförande}{3}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Förväntade resultat}{3}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion}{3}{section.5}%
+\contentsline {subsection}{\numberline {3.2}Genomförande}{4}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Resultat}{5}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion}{5}{section.5}%
+\contentsline {section}{\numberline {6}Slutsatser}{5}{section.6}%
+\contentsline {section}{\numberline {A}Data- och felanalys av vätes emissionsspektra}{6}{appendix.A}%
+\contentsline {section}{\numberline {B}Kod för data- och felanalys}{6}{appendix.B}%
+\contentsline {section}{\numberline {C}LabVIEW-kod}{6}{appendix.C}%
+\contentsline {section}{\numberline {D}Labblogg}{6}{appendix.D}%
