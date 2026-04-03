@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.18)  2 APR 2026 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.18)  3 APR 2026 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -737,16 +737,6 @@ Package csquotes Info: Redefining alias 'default' -> 'swedish'.
  (./slutrapport.aux
 Package babel Info: 'swedish' activates 'swedish' shorthands.
 (babel)             Reported on input line 10.
-
-
-LaTeX Warning: Label `fig:natriumlampa' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:natriumlampa' multiply defined.
-
-
-LaTeX Warning: Label `fig:lampor' multiply defined.
-
 )
 \openout1 = `slutrapport.aux'.
 
@@ -857,6 +847,169 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
 
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-!pdfTeX error: pdflatex.exe (file c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map): fflush() failed (Invalid argument)
- ==> Fatal error occurred, no output PDF file produced!
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./slutrapport.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write6
+\openout6 = `slutrapport.toc'.
+
+ [2]
+<../Bilder/hela_uppställning.jpg, id=83, 481.8pt x 362.10281pt>
+File: ../Bilder/hela_uppställning.jpg Graphic file (type jpg)
+<use ../Bilder/hela_uppställning.jpg>
+Package pdftex.def Info: ../Bilder/hela_uppställning.jpg  used on input line 102.
+(pdftex.def)             Requested size: 227.62206pt x 171.07237pt.
+ [3]
+<../Bilder/natriumlampa.jpg, id=94, 642.4pt x 481.8pt>
+File: ../Bilder/natriumlampa.jpg Graphic file (type jpg)
+<use ../Bilder/natriumlampa.jpg>
+Package pdftex.def Info: ../Bilder/natriumlampa.jpg  used on input line 114.
+(pdftex.def)             Requested size: 223.07211pt x 167.30186pt.
+<../Bilder/spektrallampa_tänd.jpg, id=95, 642.4pt x 481.8pt>
+File: ../Bilder/spektrallampa_tänd.jpg Graphic file (type jpg)
+<use ../Bilder/spektrallampa_tänd.jpg>
+Package pdftex.def Info: ../Bilder/spektrallampa_tänd.jpg  used on input line 121.
+(pdftex.def)             Requested size: 223.07211pt x 167.30186pt.
+ [4 <../Bilder/hela_uppställning.jpg> <../Bilder/natriumlampa.jpg> <../Bilder/spektrallampa_tänd.jpg>]
+<../Bilder/NA_spectra.png, id=105, 462.528pt x 346.896pt>
+File: ../Bilder/NA_spectra.png Graphic file (type png)
+<use ../Bilder/NA_spectra.png>
+Package pdftex.def Info: ../Bilder/NA_spectra.png  used on input line 141.
+(pdftex.def)             Requested size: 223.07211pt x 167.30745pt.
+<../Bilder/NA_spectra_doublepeaks.png, id=107, 462.528pt x 346.896pt>
+File: ../Bilder/NA_spectra_doublepeaks.png Graphic file (type png)
+<use ../Bilder/NA_spectra_doublepeaks.png>
+Package pdftex.def Info: ../Bilder/NA_spectra_doublepeaks.png  used on input line 148.
+(pdftex.def)             Requested size: 223.07211pt x 167.30745pt.
+<../Bilder/medelvärderat_spektra.png, id=109, 462.528pt x 346.896pt>
+File: ../Bilder/medelvärderat_spektra.png Graphic file (type png)
+<use ../Bilder/medelvärderat_spektra.png>
+Package pdftex.def Info: ../Bilder/medelvärderat_spektra.png  used on input line 161.
+(pdftex.def)             Requested size: 364.19667pt x 273.16086pt.
+ [5 <../Bilder/NA_spectra.png> <../Bilder/NA_spectra_doublepeaks.png>] [6 <../Bilder/medelvärderat_spektra.png>] [7]
+<Labblogg_Kvantfysik.pdf, id=140, 596.2275pt x 847.165pt>
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf  used on input line 217.
+(pdftex.def)             Requested size: 596.22604pt x 847.16292pt.
+<Labblogg_Kvantfysik.pdf, id=142, page=1, 596.2275pt x 847.165pt>
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 1>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 596.22604pt x 847.16292pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 1>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+ [8]
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 1>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 1>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 1>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+ [9
+
+ <./Labblogg_Kvantfysik.pdf>]
+<Labblogg_Kvantfysik.pdf, id=159, page=2, 596.2275pt x 847.165pt>
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 2>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page2 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 2>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page2 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 2>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page2 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+ [10
+
+ <./Labblogg_Kvantfysik.pdf>]
+<Labblogg_Kvantfysik.pdf, id=165, page=3, 596.2275pt x 847.165pt>
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 3>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page3 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 3>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page3 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 3>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page3 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+ [11
+
+ <./Labblogg_Kvantfysik.pdf>]
+<Labblogg_Kvantfysik.pdf, id=171, page=4, 596.2275pt x 847.165pt>
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 4>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page4 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 4>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page4 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 4>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page4 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+ [12
+
+ <./Labblogg_Kvantfysik.pdf>]
+<Labblogg_Kvantfysik.pdf, id=177, page=5, 596.2275pt x 847.165pt>
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 5>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page5 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 5>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page5 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+File: Labblogg_Kvantfysik.pdf Graphic file (type pdf)
+<use Labblogg_Kvantfysik.pdf, page 5>
+Package pdftex.def Info: Labblogg_Kvantfysik.pdf , page5 used on input line 217.
+(pdftex.def)             Requested size: 594.84319pt x 845.19806pt.
+ [13
+
+ <./Labblogg_Kvantfysik.pdf>] (./slutrapport.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `slutrapport.out' has not changed.
+(rerunfilecheck)             Checksum: 6FDEF7E73D0CEB76D6D3E67F25808583;1456.
+Package logreq Info: Writing requests to 'slutrapport.run.xml'.
+\openout1 = `slutrapport.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 28828 strings out of 467525
+ 541964 string characters out of 5423209
+ 1375786 words of memory out of 5000000
+ 57373 multiletter control sequences out of 15000+600000
+ 643826 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,17n,131p,806b,1545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on slutrapport.pdf (13 pages, 2358659 bytes).
+PDF statistics:
+ 245 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+

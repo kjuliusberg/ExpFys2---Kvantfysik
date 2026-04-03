@@ -153,7 +153,50 @@ Först erhölls emissionsspektrat för natriumlampan, detta visas i figur \ref{f
     ett spektralrör med väte i en hållare.}}
     \label{fig:emissionsspektra_NA}
 \end{figure}
-
+Därefter gjordes tre mätningar av vätes emissionsspektra. $\texttt{scipy.optimize.find\_peaks}$ användes sedan för att identifiera topparna i varje mätning. 
+Varje intensitetsfördelning medelvärderades och standardavvikelsen för topparna beräknades med $\texttt{numpy.std}$. Den medelvärderade intensitetsfördelningen 
+och samtliga toppar som hittades visas i figur \ref{fig:medelvärderat_spektra}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{../Bilder/medelvärderat_spektra.png}
+    \caption{\textit{Medelvärderat emissionsspektrum för väte. I figuren har topparna markerats med en röd cirkel. Topparna som markerats korresponderar till de våglängder
+    väte emitterar. Samtliga toppar sammanställs i tabell \ref{tab:toppar}.}}
+    \label{fig:medelvärderat_spektra}
+\end{figure}
+Varje uppmätt topp jämfördes med teoretiska värden på vätetoppar med hjälp av ekvation (). Samtliga uppmätta toppar och dess totala fel visas tillsammans med dess korresponderande 
+teoretiska toppar visas i tabell \ref{tab:toppar}. 
+\begin{table}[H]
+    \centering
+     \resizebox{0.95\textwidth}{!}{
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        Uppmätt topp (nm) & Osäkerhet (nm) & Teoretisk topp (nm) & Övergång & Relativt fel (\%) \\
+        \hline
+        309,64 & 0,12 &  &  &  \\
+        336,78 & 0,07 &  &  &  \\
+        357,33 & 0,07 &  &  &  \\
+        387,45 & 0,13 & 388,94 & $8 \to 2$ & 0,38 \\
+        410,69 & 0,08 & 410,21 & $6 \to 2$ & 0,12 \\
+        434,43 & 0,05 & 434,08 & $5 \to 2$ & 0,08 \\
+        450,01 & 0,07 &  &  &  \\
+        485,77 & 0,05 & 486,17 & $4 \to 2$ & 0,08 \\
+        518,31 & 0,09 &  &  &  \\
+        587,69 & 0,05 &  &  &  \\
+        616,32 & 0,05 &  &  &  \\
+        655,93 & 0,07 & 656,34 & $3 \to 2$ & 0,06 \\
+        673,46 & 0,05 &  &  &  \\
+        706,50 & 0,06 &  &  &  \\
+        714,36 & 0,05 &  &  &  \\
+        777,07 & 0,05 &  &  &  \\
+        844,43 & 0,05 &  &  &  \\
+        868,09 & 0,05 & 866,57 & $13 \to 3$ & 0,18 \\
+        972,05 & 0,08 &  &  &  \\
+        \hline
+    \end{tabular}}
+    \caption{\textit{De uppmätta topparna från figur \ref{fig:medelvärderat_spektra} och dess totala osäkerhet. Även vätes teoretiska toppar över intervallet 200-1100 nm visas 
+    tillsammans med dess korresponderande övergång och relativa fel till de uppmätta värdena.}}
+    \label{tab:toppar}
+\end{table}
 \section{Diskussion}
 
 \section{Slutsatser}

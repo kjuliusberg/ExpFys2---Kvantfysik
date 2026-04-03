@@ -33,7 +33,7 @@ plt.scatter(wavelengths_NA[peaks_NA], intensities_NA[peaks_NA], color='red')
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 plt.title('Emissionsspektra-Natrium')
-plt.savefig('NA_spectra.png')
+#plt.savefig('NA_spectra.png')
 
 na_min = np.where(wavelengths_NA.astype(int) == 585)[0][0]
 na_max = np.where(wavelengths_NA.astype(int) == 595)[0][0]
@@ -44,7 +44,7 @@ plt.plot(wavelengths_NA[na_min:na_max], intensities_NA[na_min:na_max])
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 plt.title('Emissionsspektra-Natrium')
-plt.savefig('NA_spectra_doublepeaks.png')
+#plt.savefig('NA_spectra_doublepeaks.png')
 
 
 prominence_H1 = 0.008
@@ -65,7 +65,7 @@ plt.scatter(wavelengths_H1[peaks_H1], intensities_H1[peaks_H1], color='red')
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 plt.title('Väte-spektra')
-plt.savefig('H1-spektra.png')
+#plt.savefig('H1-spektra.png')
 
 prominence_H2 = 0.008
 distance_H2 = 10
@@ -84,7 +84,7 @@ plt.scatter(wavelengths_H2[peaks_H2], intensities_H2[peaks_H2], color='red')
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 plt.title('H2-spektra')
-plt.savefig('H2-spektra.png')
+#plt.savefig('H2-spektra.png')
 
 prominence_H3 = 0.008
 distance_H3 = 10
@@ -103,7 +103,7 @@ plt.scatter(wavelengths_H3[peaks_H3], intensities_H3[peaks_H3], color='red')
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 plt.title('H3-spektra')
-plt.savefig('H3-spektra.png')
+#plt.savefig('H3-spektra.png')
 
 all_peaks = np.array([H1_wave_peaks, H2_wave_peaks, H3_wave_peaks])
 all_ints = np.array([H1_ints_peaks, H2_ints_peaks, H3_ints_peaks])
@@ -128,7 +128,7 @@ plt.scatter(average_peaks, average_ints, color='red')
 plt.xlabel('Våglängd [nm]')
 plt.ylabel('Intensitet [arb.]')
 plt.title('Medelvärderat spektra')
-plt.savefig('Medelvärderat_spektra.png')
+#plt.savefig('Medelvärderat_spektra.png')
 
 
 # Normalize intensities
@@ -175,7 +175,7 @@ plt.xlabel('Våglängd [nm]')
 plt.yticks([])
 plt.title("Emissionsspektra")
 
-plt.savefig('Emissionsspektra-colorfull.png')
+#plt.savefig('Emissionsspektra-colorfull.png')
 
 
 R = 1.097e-2
